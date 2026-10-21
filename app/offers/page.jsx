@@ -87,7 +87,7 @@ export default function OffersPage() {
               </h2>
             </div>
             <a
-              href="https://wa.me/917051933349?text=Hi%20Zuri%20Cottage,%20I%20am%20interested%20in%20a%20seasonal%20package"
+              href="https://wa.me/919797933349?text=Hi%20Zuri%20Cottage,%20I%20am%20interested%20in%20a%20seasonal%20package"
               target="_blank"
               rel="noopener noreferrer"
               className="btn btn-terracotta"
@@ -166,7 +166,7 @@ export default function OffersPage() {
                       Book Package
                     </Link>
                     <a
-                      href={`https://wa.me/917051933349?text=Hi%20Zuri%20Cottage,%20I%20would%20like%20to%20reserve%20the%20${encodeURIComponent(pkg.title)}`}
+                      href={`https://wa.me/919797933349?text=Hi%20Zuri%20Cottage,%20I%20would%20like%20to%20reserve%20the%20${encodeURIComponent(pkg.title)}`}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="btn btn-whatsapp"

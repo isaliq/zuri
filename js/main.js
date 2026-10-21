@@ -402,7 +402,7 @@ function initBookingEngine() {
         `--------------------------------%0A` +
         `Kindly confirm availability and booking procedure. Thank you!`;
 
-      whatsappBtn.href = `https://wa.me/917051933349?text=${msg}`;
+      whatsappBtn.href = `https://wa.me/919797933349?text=${msg}`;
     }
   }
 
@@ -498,7 +498,7 @@ function initContactForm() {
     if (statusBanner) {
       statusBanner.style.display = 'block';
       statusBanner.className = 'status-success';
-      statusBanner.innerHTML = `<strong>Thank you, ${name}!</strong> Your message has been received. Our concierge will reach you at ${phone} promptly. You can also chat directly on WhatsApp: <a href="https://wa.me/917051933349" target="_blank" style="color:#25d366;font-weight:700;">+91 70519 33349</a>.`;
+      statusBanner.innerHTML = `<strong>Thank you, ${name}!</strong> Your message has been received. Our concierge will reach you at ${phone} promptly. You can also chat directly on WhatsApp: <a href="https://wa.me/919797933349" target="_blank" style="color:#25d366;font-weight:700;">+91 97979 33349</a>.`;
     }
 
     form.reset();

@@ -55,8 +55,19 @@ export default function Navbar() {
             })}
           </nav>
 
-          {/* Action CTA: Filled Accent Terracotta Button */}
+          {/* Action CTA: Direct Call Badge & Book Now Button */}
           <div className="nav-actions">
+            <a
+              href="tel:+919797933349"
+              className="nav-phone-link"
+              title="Call Reservations Direct (+91 97979 33349)"
+              aria-label="Call Reservations direct at +91 97979 33349"
+            >
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+              </svg>
+              <span>+91 97979 33349</span>
+            </a>
             <Link
               href="/booking"
               className="btn btn-terracotta"
@@ -139,7 +150,14 @@ export default function Navbar() {
             Book Your Stay
           </Link>
           <a
-            href="https://wa.me/917051933349?text=Hi%20Zuri%20Cottage,%20I%20would%20like%20to%20inquire%20about%20a%20stay"
+            href="tel:+919797933349"
+            className="btn btn-outline-light"
+            style={{ width: '100%', justifyContent: 'center', fontSize: '0.88rem', gap: '8px' }}
+          >
+            <span>📞 Call: +91 97979 33349</span>
+          </a>
+          <a
+            href="https://wa.me/919797933349?text=Hi%20Zuri%20Cottage,%20I%20would%20like%20to%20inquire%20about%20a%20stay"
             target="_blank"
             rel="noopener noreferrer"
             className="btn btn-whatsapp"

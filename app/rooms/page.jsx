@@ -281,7 +281,7 @@ export default function RoomsPage() {
                   Proceed to Reservation
                 </Link>
                 <a
-                  href={`https://wa.me/917051933349?text=Hi%20Zuri%20Cottage%20Pahalgam,%20I%20am%20interested%20in%20the%20${encodeURIComponent(selectedRoom.title)}`}
+                  href={`https://wa.me/919797933349?text=Hi%20Zuri%20Cottage%20Pahalgam,%20I%20am%20interested%20in%20the%20${encodeURIComponent(selectedRoom.title)}`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn btn-whatsapp"

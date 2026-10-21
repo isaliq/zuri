@@ -345,7 +345,7 @@ function BookingForm() {
 
             <div style={{ marginTop: '28px', display: 'flex', flexDirection: 'column', gap: '12px' }}>
               <a
-                href={`https://wa.me/917051933349?text=${waMessage}`}
+                href={`https://wa.me/919797933349?text=${waMessage}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn btn-whatsapp"
@@ -355,12 +355,15 @@ function BookingForm() {
               </a>
 
               <a
-                href="tel:+917051933349"
+                href="tel:+919797933349"
                 className="btn btn-outline-walnut"
                 style={{ width: '100%', padding: '12px', fontSize: '0.88rem' }}
               >
-                📞 Call Front Desk (+91 70519 33349)
+                📞 Call Reservations (+91 97979 33349)
               </a>
+              <div style={{ textAlign: 'center', fontSize: '0.82rem', color: 'var(--color-text-muted)' }}>
+                Front Desk Direct: <a href="tel:+917051933349" style={{ color: 'var(--color-primary)', fontWeight: 600 }}>+91 70519 33349</a>
+              </div>
             </div>
 
             <div style={{ marginTop: '20px', fontSize: '0.8rem', color: 'var(--color-text-muted)', textAlign: 'center', lineHeight: '1.5' }}>

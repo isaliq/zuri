@@ -55,7 +55,7 @@ export default function Footer() {
               Reserve A Suite
             </Link>
             <a
-              href="https://wa.me/917051933349"
+              href="https://wa.me/919797933349"
               target="_blank"
               rel="noopener noreferrer"
               className="btn btn-outline-light"
@@ -102,7 +102,7 @@ export default function Footer() {
                 </svg>
               </a>
               <a
-                href="https://wa.me/917051933349"
+                href="https://wa.me/919797933349"
                 target="_blank"
                 rel="noopener noreferrer"
                 title="WhatsApp Direct"
@@ -123,8 +123,9 @@ export default function Footer() {
                 </svg>
               </a>
               <a
-                href="tel:+917051933349"
-                title="Direct Phone Line"
+                href="tel:+919797933349"
+                title="Direct Reservations Line (+91 97979 33349)"
+                aria-label="Call Reservations direct at +91 97979 33349"
                 style={{
                   width: '40px',
                   height: '40px',
@@ -181,7 +182,12 @@ export default function Footer() {
               </div>
 
               <div>
-                <span style={{ display: 'block', color: 'var(--color-accent)', fontWeight: 600, fontSize: '0.78rem', textTransform: 'uppercase' }}>Front Desk Reservations</span>
+                <span style={{ display: 'block', color: 'var(--color-accent)', fontWeight: 600, fontSize: '0.78rem', textTransform: 'uppercase' }}>Reservations & WhatsApp</span>
+                <a href="tel:+919797933349" style={{ color: '#FFFFFF', fontWeight: 600, display: 'block' }}>+91 97979 33349</a>
+              </div>
+
+              <div>
+                <span style={{ display: 'block', color: 'var(--color-accent)', fontWeight: 600, fontSize: '0.78rem', textTransform: 'uppercase' }}>Front Desk Direct</span>
                 <a href="tel:+917051933349" style={{ color: '#FFFFFF', fontWeight: 600, display: 'block' }}>+91 70519 33349</a>
               </div>
 

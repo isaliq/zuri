@@ -118,12 +118,12 @@ export default function FaqPage() {
             </p>
             <div style={{ display: 'flex', justifyContent: 'center', gap: '14px', flexWrap: 'wrap' }}>
               <a
-                href="https://wa.me/917051933349?text=Hi%20Zuri%20Cottage%20Pahalgam,%20I%20have%20a%20question"
+                href="https://wa.me/919797933349?text=Hi%20Zuri%20Cottage%20Pahalgam,%20I%20have%20a%20question"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn btn-whatsapp"
               >
-                Chat on WhatsApp (+91 70519 33349)
+                Chat on WhatsApp (+91 97979 33349)
               </a>
               <Link href="/contact" className="btn btn-outline-walnut">
                 Contact Page & Directions

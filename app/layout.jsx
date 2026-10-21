@@ -51,7 +51,7 @@ export default function RootLayout({ children }) {
                 latitude: 34.11056,
                 longitude: 75.40194,
               },
-              telephone: ['+917051933349', '+919682319475'],
+              telephone: ['+919797933349', '+917051933349'],
               email: 'zuricottage@gmail.com',
               priceRange: '₹3,500 - ₹24,000',
               checkinTime: '14:00',

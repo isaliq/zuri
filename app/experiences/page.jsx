@@ -148,7 +148,7 @@ export default function ExperiencesPage() {
                   </p>
 
                   <a
-                    href={`https://wa.me/917051933349?text=Hi%20Zuri%20Cottage%20Pahalgam,%20I%20would%20like%20to%20arrange%20the%20${encodeURIComponent(exp.title)}%20experience`}
+                    href={`https://wa.me/919797933349?text=Hi%20Zuri%20Cottage%20Pahalgam,%20I%20would%20like%20to%20arrange%20the%20${encodeURIComponent(exp.title)}%20experience`}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="btn btn-outline-walnut"

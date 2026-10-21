@@ -35,11 +35,14 @@ export default function ContactPage() {
         <div className="container">
           {/* Quick Action Buttons Row */}
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '16px', marginBottom: '56px' }}>
-            <a href="tel:+917051933349" className="btn btn-walnut" style={{ width: '100%', gap: '8px' }}>
-              📞 Call: +91 70519 33349
+            <a href="tel:+919797933349" className="btn btn-walnut" style={{ width: '100%', gap: '8px' }}>
+              📞 Call: +91 97979 33349
+            </a>
+            <a href="tel:+917051933349" className="btn btn-outline-walnut" style={{ width: '100%', gap: '8px' }}>
+              ☎ Front Desk: +91 70519 33349
             </a>
             <a
-              href="https://wa.me/917051933349?text=Hi%20Zuri%20Cottage%20Pahalgam,%20I%20have%20an%20inquiry"
+              href="https://wa.me/919797933349?text=Hi%20Zuri%20Cottage%20Pahalgam,%20I%20have%20an%20inquiry"
               target="_blank"
               rel="noopener noreferrer"
               className="btn btn-whatsapp"
@@ -86,8 +89,8 @@ export default function ContactPage() {
                   </p>
                   <p>
                     <strong>Phone Numbers:</strong><br />
-                    <a href="tel:+917051933349" style={{ color: 'var(--color-primary)', fontWeight: 600 }}>+91 70519 33349</a> (Reservations & WhatsApp)<br />
-                    <a href="tel:+919682319475" style={{ color: 'var(--color-primary)', fontWeight: 600 }}>+91 96823 19475</a> (Front Desk)
+                    <a href="tel:+919797933349" style={{ color: 'var(--color-primary)', fontWeight: 600 }}>+91 97979 33349</a> (Reservations & WhatsApp)<br />
+                    <a href="tel:+917051933349" style={{ color: 'var(--color-primary)', fontWeight: 600 }}>+91 70519 33349</a> (Front Desk)
                   </p>
                 </div>
               </div>
@@ -103,7 +106,7 @@ export default function ContactPage() {
 
                 {submitted ? (
                   <div style={{ background: '#EAF7EE', border: '1px solid #48BB78', padding: '20px', borderRadius: '12px', color: '#22543D' }}>
-                    <strong>Thank you!</strong> Your message has been sent to our reservations desk. We will reach back to you shortly. You can also message directly on WhatsApp: <a href="https://wa.me/917051933349" target="_blank" style={{ color: '#25D366', fontWeight: 700 }}>+91 70519 33349</a>.
+                    <strong>Thank you!</strong> Your message has been sent to our reservations desk. We will reach back to you shortly. You can also message directly on WhatsApp: <a href="https://wa.me/919797933349" target="_blank" style={{ color: '#25D366', fontWeight: 700 }}>+91 97979 33349</a>.
                   </div>
                 ) : (
                   <form onSubmit={handleSubmit} style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
